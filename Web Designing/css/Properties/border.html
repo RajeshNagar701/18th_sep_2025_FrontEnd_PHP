@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+	<!--
+	
+	border-style
+	border-width
+	border-color
+	
+	border:solid 5px red  // shorthand
+	
+	outline
+	outline-style
+	outline-width
+	outline-color
+	
+	outline-offset
+	
+	
+	============= Border-style====================
+	dotted - Defines a dotted border
+	dashed - Defines a dashed border
+	solid - Defines a solid border
+	double - Defines a double border
+	groove - Defines a 3D grooved border. The effect depends on the border-color value
+	ridge - Defines a 3D ridged border. The effect depends on the border-color value
+	inset - Defines a 3D inset border. The effect depends on the border-color value
+	outset - Defines a 3D outset border. The effect depends on the border-color value
+	none - Defines no border
+	hidden - Defines a hidden border
+	============= Border-style====================
+	
+	
+	-->
+	
+	
+	<style>
+		
+		.box1{
+			width:25%;
+			height:200px;
+			background-color:yellow;
+			border-style:solid;
+			border-width:5px;
+			border-color:red;
+		}
+		
+		.box2{
+			width:25%;
+			height:200px;
+			background-color:yellow;
+			
+			/* shorthand propeties */
+			
+			border:solid 5px red;
+		}
+		
+		.box3{
+			width:25%;
+			height:200px;
+			background-color:yellow;
+			border:solid 5px red;
+			outline:solid 5px green;
+		}
+		
+		.box4{
+			width:25%;
+			height:200px;
+			background-color:yellow;
+			border:solid 5px red;
+			outline:solid 5px green;
+			outline-offset:5px;
+		}
+
+	
+	</style>
+	
+</head>
+<body>
+ 
+	<div class="box1"></div> <br><br>
+	<div class="box2"></div> <br><br>
+	<div class="box3"></div> <br><br>
+	<div class="box4"></div> <br><br>
+	
+</body>
+</html>

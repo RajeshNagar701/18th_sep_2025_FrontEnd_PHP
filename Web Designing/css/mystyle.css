@@ -1,0 +1,15 @@
+h1,h3,h4{ color:red; background-color:yellow; text-align:center}
+
+/* custom css */
+
+.bhavna{ color:green;background-color:orange;text-align:left}
+.underline{ text-decoration:underline }
+.uppercase{ text-transform:uppercase}
+
+#adeeba{ color:purple;background-color:pink;text-align:right}
+
+
+
+h5.test{
+	 color:white;background-color:black;text-align:center;
+}
