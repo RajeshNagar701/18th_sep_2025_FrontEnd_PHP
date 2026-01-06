@@ -97,3 +97,28 @@
     background-color: white;
     color: palevioletred;
 }
+
+.subscribe1{
+	padding:5px;
+}
+
+.subscribe1_text{
+	padding:20px;
+}
+
+.subscribe1 h3{
+	text-transform:uppercase;
+}
+
+.subscribe1 p{
+	color:LightGray;
+}
+.subscribe1 button{
+	background-color:palevioletred;
+	color:white;
+	width:100%;
+	border:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:20px;
+}
